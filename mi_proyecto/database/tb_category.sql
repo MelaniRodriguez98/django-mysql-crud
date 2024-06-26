@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `tb_category` (
   `category_id` int(11) NOT NULL,
   `category_name` varchar(100) NOT NULL,
-  `is_deleted` int(11) NOT NULL
+  `is_deleted` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
